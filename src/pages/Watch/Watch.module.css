@@ -1,5 +1,11 @@
 .watch {
     padding-top: 84px; /* 68px + 16px */
     
+}
 
+section h1 {
+    color: rgb(60, 87, 206);
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 24px;
 }
