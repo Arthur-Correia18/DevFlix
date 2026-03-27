@@ -8,7 +8,7 @@ function AppRoutes() {
         <BrowserRouter basename="/DevFlix">
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/watch" element={<Watch />} />
+                <Route path="/watch/:id" element={<Watch />} />
                 <Route path="/*" element={<PageNotFound />} />
             </Routes>
         </BrowserRouter>
