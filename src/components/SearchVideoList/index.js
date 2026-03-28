@@ -8,7 +8,7 @@ function filterVideos(videos, searchText) {
 
 function SearchVideoList({videos}) {
 
-    const [searchText, setSearchtext] = useState()
+    const [searchText, setSearchtext] = useState('Trailers')
     const foundVideos = filterVideos(videos, searchText)
 
 
