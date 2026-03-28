@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DevFlix/static/css/main.1f016c01.css",
-    "main.js": "/DevFlix/static/js/main.67c91290.js",
+    "main.js": "/DevFlix/static/js/main.bcabfee1.js",
     "static/media/erro404.png": "/DevFlix/static/media/erro404.87b833bdd84d0c9fe8f3.png",
     "index.html": "/DevFlix/index.html",
     "main.1f016c01.css.map": "/DevFlix/static/css/main.1f016c01.css.map",
-    "main.67c91290.js.map": "/DevFlix/static/js/main.67c91290.js.map"
+    "main.bcabfee1.js.map": "/DevFlix/static/js/main.bcabfee1.js.map"
   },
   "entrypoints": [
     "static/css/main.1f016c01.css",
-    "static/js/main.67c91290.js"
+    "static/js/main.bcabfee1.js"
   ]
 }
