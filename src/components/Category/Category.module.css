@@ -16,7 +16,8 @@
     padding-block: 1rem;
     color: antiquewhite;
     border: #367ff4 0.5px solid;
-    margin: 1px 590px;
+    white-space: nowrap;
+    margin: 1px 580px;
     border-radius: 8px;
     background-color: #072453;
 }

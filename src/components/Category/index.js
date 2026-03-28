@@ -7,6 +7,8 @@ export const categories = [
   "Terror",
   "Suspense",
   "Drama",
+  "Dark Romance",
+  "Trailers"
 ]
 
 export function filterCategory(id) {
