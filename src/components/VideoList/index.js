@@ -7,7 +7,7 @@ function videoList({videos, emptyHeading }) {
     if(count > 0) {
         const noun = count > 1 ? "vídeos" : "vídeo"
         heading = `Recomendados (${count} ${noun})`
-
+    }
 
     return (
         <>
