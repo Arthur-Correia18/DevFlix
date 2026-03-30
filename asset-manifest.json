@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/DevFlix/static/css/main.1f016c01.css",
-    "main.js": "/DevFlix/static/js/main.bcabfee1.js",
-    "static/media/erro404.png": "/DevFlix/static/media/erro404.87b833bdd84d0c9fe8f3.png",
+    "main.css": "/DevFlix/static/css/main.65ee20a0.css",
+    "main.js": "/DevFlix/static/js/main.c1d7f3ab.js",
+    "static/media/erro404.png": "/DevFlix/static/media/erro404.af1974220ad6adce516a.png",
+    "static/media/slick.svg": "/DevFlix/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/DevFlix/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/DevFlix/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/DevFlix/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DevFlix/index.html",
-    "main.1f016c01.css.map": "/DevFlix/static/css/main.1f016c01.css.map",
-    "main.bcabfee1.js.map": "/DevFlix/static/js/main.bcabfee1.js.map"
+    "main.65ee20a0.css.map": "/DevFlix/static/css/main.65ee20a0.css.map",
+    "main.c1d7f3ab.js.map": "/DevFlix/static/js/main.c1d7f3ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f016c01.css",
-    "static/js/main.bcabfee1.js"
+    "static/css/main.65ee20a0.css",
+    "static/js/main.c1d7f3ab.js"
   ]
 }
