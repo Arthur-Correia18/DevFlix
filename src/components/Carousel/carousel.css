@@ -1,0 +1,6 @@
+.slick-prev:before,
+.slick-next:before {
+    color: rgb(0, 136, 255);
+    font-size: 1.5rem;
+    margin: 0 -35px;
+}

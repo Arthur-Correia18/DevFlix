@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #191919;
 }
 
 code {
@@ -17,10 +18,20 @@ code {
     monospace;
 }
 
-/* formatacao geral dos cards  */
-.cards {
-  display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
+
+/* formatacao da barra de rolagem */
+body::-webkit-scrollbar {
+  width: 12px;                /* largura da barra de rolagem */
+  background-color: #222;
+}
+
+body::-webkit-scrollbar-track {
+  background: #222;           /* cor de fundo da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1c5ab7;  /* cor do scroll (thumb) da barra de rolagem */
+  border-radius: 20px;          /* arredondar o scroll (thumb) */
+  border: 3px solid #222;     /* criar um espaco em volta do scroll */
 }
 
