@@ -1,10 +1,16 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 export const FavoritesContext = createContext();
 FavoritesContext.displayName = "MyFavorites";
 
 export default function FavoritesProvider({ children }) {
-	const [ favorite, setFavorite ]	= useState([]);
+	const [ favorite, setFavorite ]	= useState(() => {
+		const salvos = localStorage.getItem("favoritos");
+		return salvos ? JSON.parse(salvos) : [];
+	});
+	useEffect(() => {
+		localStorage.setItem("favoritos", JSON.stringify(favorite));
+	}, [favorite]);
 
 	return (
 		<FavoritesContext.Provider

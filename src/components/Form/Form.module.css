@@ -1,0 +1,66 @@
+.container {
+    padding-top: 68px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.container h2 {
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+
+.container form {
+    width: 100%;
+    max-width: 90%;
+    background-color: #333333;
+    border-radius: 40px;
+    padding: 34px 64px;
+    margin-bottom: 40px;
+}
+
+.container div {
+    margin-bottom: 1rem;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.container input, .container select {
+    background-color: #FFF;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 0.5rem;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    
+}
+
+.container select:focus {
+    transform: scale(1.03);
+}
+
+.container button {
+    background-color: #1c74b7c7;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 24px 28px;
+    border: none; 
+    cursor: pointer;
+    color: #FFF;
+    margin-top: 0.5rem;
+}
+
+.container button:hover {
+    background-color: #3685f4;
+}

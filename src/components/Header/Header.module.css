@@ -25,7 +25,13 @@
     font-size: 2rem;
     color: #367ff4 ;
     font-weight: 500;
+    user-select: none;
+    caret-color: transparent;
 
+}
+.header nav{
+    user-select: none;
+    caret-color: transparent;
 }
 
 .header a {
