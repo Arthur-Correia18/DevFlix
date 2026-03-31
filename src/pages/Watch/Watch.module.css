@@ -1,11 +1,29 @@
 .watch {
-    padding-top: 84px; /* 68px + 16px */
+    padding-top: 84px;
+    /* 68px + 16px */
     
-}
 
+}
+.watch iframe {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 12px;
+    border: 3px solid #367ff443;
+}
 section h1 {
-    color: rgb(60, 87, 206);
+
     text-align: center;
     font-size: 38px;
-    margin-bottom: 24px;
+    color: antiquewhite;
+    border: #367ff4 0.5px solid;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #072453;
+    width: 40%;
+    text-align: center;
 }
+
+

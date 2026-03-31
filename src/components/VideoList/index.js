@@ -1,7 +1,7 @@
 import styles from './VideoList.module.css';
 import Card from '../Card';
 
-function videoList({videos, emptyHeading }) {
+function VideoList({videos, emptyHeading }) {
     const count = videos.length;
     let heading = emptyHeading;
     if(count > 0) {
@@ -13,11 +13,13 @@ function videoList({videos, emptyHeading }) {
         <>
             <h2>{heading}</h2>
             <section className={styles.videos}>
-                {videos.map((video) => <Card id={video.id} key={video.id} />)}
+                {videos.map((video) => (
+                     <Card id={video.id} key={video.id} {...video}/>
+                    ))}
 
             </section>
         </>
     );
 }
 
-export default videoList;
+export default VideoList;
