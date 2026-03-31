@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DevFlix/static/css/main.0b2b6e8e.css",
-    "main.js": "/DevFlix/static/js/main.e17db639.js",
+    "main.js": "/DevFlix/static/js/main.a3f4d72b.js",
     "static/media/erro404.png": "/DevFlix/static/media/erro404.af1974220ad6adce516a.png",
     "static/media/slick.svg": "/DevFlix/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/DevFlix/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,10 +9,10 @@
     "static/media/slick.woff": "/DevFlix/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DevFlix/index.html",
     "main.0b2b6e8e.css.map": "/DevFlix/static/css/main.0b2b6e8e.css.map",
-    "main.e17db639.js.map": "/DevFlix/static/js/main.e17db639.js.map"
+    "main.a3f4d72b.js.map": "/DevFlix/static/js/main.a3f4d72b.js.map"
   },
   "entrypoints": [
     "static/css/main.0b2b6e8e.css",
-    "static/js/main.e17db639.js"
+    "static/js/main.a3f4d72b.js"
   ]
 }
