@@ -1,7 +1,9 @@
+import React from "react";
 import Slider from "react-slick";
 import "./carousel.css";
 
 function Carousel({ children }) {
+    const totalItems = React.Children.count(children);
 
     const settings = {
         dots: false,
@@ -10,8 +12,9 @@ function Carousel({ children }) {
         centerMode: false,
         variableWidth: true,
         adaptiveHeight: true,
-        // slidesToShow: 5,
+        slidesToShow:Math.min(5, totalItems),
         slidesToScroll: 1,
+        arrows: totalItems > 5
     }
 
     return (

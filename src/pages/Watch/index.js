@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import videos from "../../json/videos.json";
 import PageNotFound from "../PageNotFound";
 import ScrollToTopButton from "../../components/ScrollToTopButton";
+import Banner from "../../components/Banner";
 
 function Watch() {
     const params = useParams();
@@ -15,9 +16,11 @@ function Watch() {
         <>
             <ScrollToTopButton />
             <Header />
+            <Banner image="Assistir"/>
+
             <Container>
                 <section className={styles.watch}>
-                    <h1>Assistir</h1>
+  
                     <iframe 
                         width="854" height="480" 
                         src={`https://www.youtube.com/embed/${video.id}`}
