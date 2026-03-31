@@ -1,9 +1,10 @@
 .watch {
     padding-top: 84px;
     /* 68px + 16px */
-    
+
 
 }
+
 .watch iframe {
     width: 100%;
     max-width: 900px;
@@ -12,6 +13,7 @@
     border-radius: 12px;
     border: 3px solid #367ff443;
 }
+
 section h1 {
 
     text-align: center;
@@ -26,4 +28,9 @@ section h1 {
     text-align: center;
 }
 
-
+@media (max-width: 1024px) {
+    iframe {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+}
