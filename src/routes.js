@@ -9,7 +9,7 @@ import FavoritesProvider from "./contexts/Favorites";
 
 function AppRoutes() {
     return (
-        <BrowserRouter basename="/DevFlix">
+        <BrowserRouter>
             <FavoritesProvider>
                 <Routes>
                     <Route path="/" element={<Home />} ></Route>
