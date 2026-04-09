@@ -9,9 +9,6 @@ Projeto desenvolvido durante meus estudos em React.js, inspirado em plataformas 
 🔵 GitHub Pages:  
 https://arthur-correia18.github.io/DevFlix
 
-⚡ Vercel (deploy profissional):  
-https://devflix-delta.vercel.app
-
 ---
 
 ## 📸 Preview
